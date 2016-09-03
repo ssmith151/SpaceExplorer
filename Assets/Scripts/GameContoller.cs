@@ -17,13 +17,13 @@ public class GameContoller : MonoBehaviour
     public float spawnWait;
     public float waveWait;
     public float startWait;
-    public int score;
     public bool menuOpen;
     public bool isSpawningLevel;
     public int levelNumber;
 
     public int roidNumber;
     public int maxRoidSize;
+    public Score score;
 
     private bool restart;
     private bool gameOver;
@@ -34,6 +34,7 @@ public class GameContoller : MonoBehaviour
     void Start()
     {
         Canvas canvas = FindObjectOfType<Canvas>();
+        score = new Score();
         mainMenu = canvas.GetComponentInChildren<MainMenuController>();
         menuOpen = mainMenu.mainMenu.activeSelf;
         victory = false;
@@ -42,11 +43,11 @@ public class GameContoller : MonoBehaviour
         restartText.text = "";
         gameOverText.text = "";
         CreateRoidField(roidNumber, maxRoidSize);
-        if (!bossScene)
+        //if (!bossScene)
             //StartCoroutine(SpawnWaves());
             //else
             //    StartCoroutine(BossStates());
-            score = 0;
+     
         StartCoroutine(CheckForDead());
         UpdateScore();
         levelNumber = Application.loadedLevel;
@@ -195,18 +196,26 @@ public class GameContoller : MonoBehaviour
     //}
     public void AddScore(int scoreValue)
     {
-        score += scoreValue;
+        score.score += scoreValue;
         UpdateScore();
     }
 
     void UpdateScore()
     {
-        scoreText.text = "Score : " + score;
+        scoreText.text = "Score : " + score.score;
     }
 
     public void GameOver()
     {
         gameOver = true;
         gameOverText.text = "Game Over";
+    }
+}
+public class Score
+{
+    public int score { get; set; }
+    public Score()
+    {
+        score = 0;
     }
 }
