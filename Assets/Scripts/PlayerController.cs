@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
     public float sidewaysSpeedReducer;
     public GameObject shotSpawn;
     public GameObject shot;
+    public GameObject[] altShots;
     public GameObject playerExp;
     public Image speedBar;
     public Image health;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour {
     private float mouseX;
     private float mouseY;
     private bool mouseFire;
+    private bool mouseAltFire;
     private AudioSource audS;
     private bool inCollider;
 
@@ -45,6 +47,7 @@ public class PlayerController : MonoBehaviour {
         mouseX = Input.GetAxis("Mouse X");
         mouseY = Input.GetAxis("Mouse Y");
         mouseFire = Input.GetButtonDown("Fire1");
+        mouseAltFire = Input.GetButtonDown("Fire2");
 
         horizontal = Mathf.Clamp(horizontal, -1, 1);
         vertical =  Mathf.Clamp(vertical, -1, 1);
@@ -64,10 +67,19 @@ public class PlayerController : MonoBehaviour {
         currentSideWaysSpeed = Mathf.Clamp(newHorizontalSpeed, -5.0f, 5.0f);
 
 
-        if (mouseFire)
+        if (mouseFire && !mouseAltFire)
         {
             audS.Play();
             Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
+        }
+        if (mouseAltFire && !mouseFire)
+        {
+            audS.Play();
+            if ( altShots[0]!= null)
+            {
+                Instantiate(altShots[0], shotSpawn.transform.position, shotSpawn.transform.rotation);
+            }
+
         }
 
         //Quaternion newFacing = Quaternion.Euler(0.0f, 0.0f, 0.0f);

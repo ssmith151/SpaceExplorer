@@ -7,10 +7,12 @@ public class GameContoller : MonoBehaviour
 {
 
     [Range(0, 100)]
-    public int rockChance;
-
+    public int[] rockChance;
     public GameObject[] roidFieldRocks;
+    [Range(0, 100)]
+    public int[] enemyChance;
     public GameObject[] enemies;
+
     public Vector3 spawnValues;
     public Text scoreText;
     public Text restartText;
@@ -103,13 +105,25 @@ public class GameContoller : MonoBehaviour
     // input for the number of roid and the max size of them.
     void CreateRoidField(int roidTotal, int maxSize)
     {
+        // ensure that spawn rates are out of 100%
+        rockChance = CheckRockChance(rockChance);
         // bool to keep player safe during spawning
         isSpawningLevel = true;
+        // create one random number
+        System.Random randomPer = new System.Random(Time.time.ToString().GetHashCode());
         // loop for the number of asteroids to be made
         for (int i = 0; i < roidNumber; i++)
         {
-            // pull out the model collider from an array
-            GameObject roid = roidFieldRocks[Random.Range(0, roidFieldRocks.Length)];
+            GameObject roid = null;
+            int chanceForThisLoop = randomPer.Next(1, 100);
+            for(int j = 0; j < rockChance.Length; j++)
+            {
+                if (chanceForThisLoop < rockChance[j])
+                {
+                    roid = roidFieldRocks[j];
+                    break;
+                }
+            }
             // randomize the max size
             float roidSize = Random.Range(0.5f, maxRoidSize);
             // randomize the location of the new spawnpoint, set from spawnvalues
@@ -127,7 +141,31 @@ public class GameContoller : MonoBehaviour
         // gives the player their vulnerablity back
         isSpawningLevel = false;
     }
-
+    int[] CheckRockChance(int[] rockChanceIn)
+    {
+        int newTotal = 0;
+        foreach(int i in rockChanceIn)
+        {
+            newTotal += i;
+        }
+        if (newTotal <= 100) {
+            for (int i =0; i<rockChance.Length; i++)
+            {
+                if(i!=0)
+                    rockChanceIn[i] += rockChance[i-1];
+            }
+            return rockChanceIn;
+        } else
+        {
+            int[] newChanceOut = new int[rockChanceIn.Length]; 
+            for (int i = 0; i <rockChanceIn.Length; i++) {
+                newChanceOut[i] = Mathf.RoundToInt(rockChanceIn[i] / newTotal);
+                if (i != 0)
+                    newChanceOut[i] += newChanceOut[i - 1];
+            }
+            return newChanceOut;
+        }
+    }
     IEnumerator SpawnWaves()
     {
         yield return new WaitForSeconds(startWait);
@@ -228,9 +266,9 @@ public class DestructableModel
     GameObject destructablePrefab;
     GameObject explosionPrefab;
     [Range(0,100)] 
-    public int spawnRate;
+    public int? spawnRate;
     public int hits;
     public int size;
-
+    
 
 }
