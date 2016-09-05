@@ -1,0 +1,1433 @@
+fileFormatVersion: 2
+guid: e760f552b66c8b6409d89e61a79e4e22
+timeCreated: 1473085797
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: asteroid_02_no_moblur_0
+    21300002: asteroid_02_no_moblur_1
+    21300004: asteroid_02_no_moblur_2
+    21300006: asteroid_02_no_moblur_3
+    21300008: asteroid_02_no_moblur_4
+    21300010: asteroid_02_no_moblur_5
+    21300012: asteroid_02_no_moblur_6
+    21300014: asteroid_02_no_moblur_7
+    21300016: asteroid_02_no_moblur_8
+    21300018: asteroid_02_no_moblur_9
+    21300020: asteroid_02_no_moblur_10
+    21300022: asteroid_02_no_moblur_11
+    21300024: asteroid_02_no_moblur_12
+    21300026: asteroid_02_no_moblur_13
+    21300028: asteroid_02_no_moblur_14
+    21300030: asteroid_02_no_moblur_15
+    21300032: asteroid_02_no_moblur_16
+    21300034: asteroid_02_no_moblur_17
+    21300036: asteroid_02_no_moblur_18
+    21300038: asteroid_02_no_moblur_19
+    21300040: asteroid_02_no_moblur_20
+    21300042: asteroid_02_no_moblur_21
+    21300044: asteroid_02_no_moblur_22
+    21300046: asteroid_02_no_moblur_23
+    21300048: asteroid_02_no_moblur_24
+    21300050: asteroid_02_no_moblur_25
+    21300052: asteroid_02_no_moblur_26
+    21300054: asteroid_02_no_moblur_27
+    21300056: asteroid_02_no_moblur_28
+    21300058: asteroid_02_no_moblur_29
+    21300060: asteroid_02_no_moblur_30
+    21300062: asteroid_02_no_moblur_31
+    21300064: asteroid_02_no_moblur_32
+    21300066: asteroid_02_no_moblur_33
+    21300068: asteroid_02_no_moblur_34
+    21300070: asteroid_02_no_moblur_35
+    21300072: asteroid_02_no_moblur_36
+    21300074: asteroid_02_no_moblur_37
+    21300076: asteroid_02_no_moblur_38
+    21300078: asteroid_02_no_moblur_39
+    21300080: asteroid_02_no_moblur_40
+    21300082: asteroid_02_no_moblur_41
+    21300084: asteroid_02_no_moblur_42
+    21300086: asteroid_02_no_moblur_43
+    21300088: asteroid_02_no_moblur_44
+    21300090: asteroid_02_no_moblur_45
+    21300092: asteroid_02_no_moblur_46
+    21300094: asteroid_02_no_moblur_47
+    21300096: asteroid_02_no_moblur_48
+    21300098: asteroid_02_no_moblur_49
+    21300100: asteroid_02_no_moblur_50
+    21300102: asteroid_02_no_moblur_51
+    21300104: asteroid_02_no_moblur_52
+    21300106: asteroid_02_no_moblur_53
+    21300108: asteroid_02_no_moblur_54
+    21300110: asteroid_02_no_moblur_55
+    21300112: asteroid_02_no_moblur_56
+    21300114: asteroid_02_no_moblur_57
+    21300116: asteroid_02_no_moblur_58
+    21300118: asteroid_02_no_moblur_59
+    21300120: asteroid_02_no_moblur_60
+    21300122: asteroid_02_no_moblur_61
+    21300124: asteroid_02_no_moblur_62
+    21300126: asteroid_02_no_moblur_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: asteroid_02_no_moblur_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: -10}
+        - {x: -27, y: -46}
+        - {x: 33, y: -46}
+        - {x: 44, y: -42}
+        - {x: 44, y: 30}
+        - {x: 41, y: 43}
+        - {x: -48, y: 43}
+        - {x: -51, y: 35}
+    - name: asteroid_02_no_moblur_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 20}
+        - {x: 17, y: 47}
+        - {x: -19, y: 47}
+        - {x: -39, y: 40}
+        - {x: -53, y: 21}
+        - {x: -53, y: -15}
+        - {x: -29, y: -47}
+        - {x: 25, y: -47}
+        - {x: 43, y: -28}
+        - {x: 46, y: -15}
+        - {x: 46, y: 4}
+    - name: asteroid_02_no_moblur_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 51}
+        - {x: -49, y: 42}
+        - {x: -53, y: 20}
+        - {x: -53, y: -32}
+        - {x: -41, y: -49}
+        - {x: 27, y: -49}
+        - {x: 47, y: -42}
+        - {x: 47, y: 24}
+        - {x: 15, y: 51}
+    - name: asteroid_02_no_moblur_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 54}
+        - {x: -12, y: 54}
+        - {x: -37, y: 46}
+        - {x: -54, y: 12}
+        - {x: -54, y: -15}
+        - {x: -24, y: -52}
+        - {x: -5, y: -52}
+        - {x: 26, y: -49}
+        - {x: 48, y: -21}
+        - {x: 48, y: 16}
+        - {x: 40, y: 46}
+    - name: asteroid_02_no_moblur_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 56}
+        - {x: -43, y: 32}
+        - {x: -53, y: 5}
+        - {x: -53, y: -24}
+        - {x: -21, y: -52}
+        - {x: 23, y: -52}
+        - {x: 48, y: -44}
+        - {x: 48, y: 35}
+        - {x: 45, y: 56}
+    - name: asteroid_02_no_moblur_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 58}
+        - {x: -51, y: 36}
+        - {x: -52, y: 32}
+        - {x: -52, y: -15}
+        - {x: -27, y: -52}
+        - {x: 4, y: -52}
+        - {x: 49, y: -35}
+        - {x: 49, y: 35}
+        - {x: 36, y: 58}
+    - name: asteroid_02_no_moblur_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 58}
+        - {x: -21, y: 58}
+        - {x: -51, y: 20}
+        - {x: -51, y: -25}
+        - {x: -24, y: -52}
+        - {x: 16, y: -52}
+        - {x: 28, y: -48}
+        - {x: 50, y: -24}
+        - {x: 50, y: 12}
+        - {x: 39, y: 52}
+    - name: asteroid_02_no_moblur_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 55}
+        - {x: -38, y: 39}
+        - {x: -48, y: 21}
+        - {x: -48, y: -20}
+        - {x: -36, y: -53}
+        - {x: 7, y: -53}
+        - {x: 46, y: -43}
+        - {x: 50, y: -33}
+        - {x: 50, y: 28}
+        - {x: 30, y: 55}
+    - name: asteroid_02_no_moblur_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 51}
+        - {x: -9, y: 51}
+        - {x: -39, y: 42}
+        - {x: -46, y: 34}
+        - {x: -46, y: -30}
+        - {x: -26, y: -55}
+        - {x: 17, y: -55}
+        - {x: 49, y: -22}
+        - {x: 49, y: 15}
+        - {x: 45, y: 31}
+    - name: asteroid_02_no_moblur_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 48}
+        - {x: -40, y: 48}
+        - {x: -47, y: 42}
+        - {x: -47, y: -53}
+        - {x: -34, y: -56}
+        - {x: 10, y: -56}
+        - {x: 39, y: -33}
+        - {x: 49, y: -15}
+        - {x: 49, y: 38}
+    - name: asteroid_02_no_moblur_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 45}
+        - {x: -48, y: 27}
+        - {x: -48, y: -20}
+        - {x: -36, y: -55}
+        - {x: 12, y: -55}
+        - {x: 48, y: -30}
+        - {x: 48, y: 12}
+        - {x: 33, y: 45}
+    - name: asteroid_02_no_moblur_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 47}
+        - {x: -48, y: 27}
+        - {x: -48, y: -3}
+        - {x: -39, y: -41}
+        - {x: -23, y: -53}
+        - {x: 4, y: -53}
+        - {x: 46, y: -31}
+        - {x: 48, y: -20}
+        - {x: 48, y: 39}
+        - {x: 20, y: 47}
+    - name: asteroid_02_no_moblur_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 48}
+        - {x: -48, y: 32}
+        - {x: -48, y: -25}
+        - {x: -43, y: -41}
+        - {x: -10, y: -50}
+        - {x: 10, y: -50}
+        - {x: 46, y: -37}
+        - {x: 46, y: 34}
+        - {x: 27, y: 48}
+    - name: asteroid_02_no_moblur_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 49}
+        - {x: -48, y: 27}
+        - {x: -48, y: -3}
+        - {x: -37, y: -39}
+        - {x: -28, y: -45}
+        - {x: 20, y: -45}
+        - {x: 45, y: -31}
+        - {x: 45, y: 40}
+        - {x: 12, y: 49}
+    - name: asteroid_02_no_moblur_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 48}
+        - {x: -48, y: 24}
+        - {x: -48, y: -16}
+        - {x: -39, y: -42}
+        - {x: 41, y: -42}
+        - {x: 44, y: -33}
+        - {x: 44, y: 34}
+        - {x: 25, y: 48}
+    - name: asteroid_02_no_moblur_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 48}
+        - {x: -47, y: 26}
+        - {x: -48, y: 21}
+        - {x: -48, y: -13}
+        - {x: -30, y: -42}
+        - {x: 40, y: -42}
+        - {x: 45, y: -33}
+        - {x: 45, y: 23}
+        - {x: 15, y: 48}
+    - name: asteroid_02_no_moblur_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 47}
+        - {x: -28, y: 47}
+        - {x: -50, y: 26}
+        - {x: -50, y: -37}
+        - {x: -23, y: -45}
+        - {x: 46, y: -45}
+        - {x: 46, y: 37}
+        - {x: 45, y: 46}
+    - name: asteroid_02_no_moblur_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 48}
+        - {x: -33, y: 48}
+        - {x: -49, y: 42}
+        - {x: -52, y: 17}
+        - {x: -52, y: -42}
+        - {x: -32, y: -47}
+        - {x: 29, y: -47}
+        - {x: 48, y: -41}
+        - {x: 48, y: 27}
+        - {x: 46, y: 42}
+    - name: asteroid_02_no_moblur_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 51}
+        - {x: -53, y: 31}
+        - {x: -53, y: -31}
+        - {x: -38, y: -47}
+        - {x: 35, y: -47}
+        - {x: 49, y: -28}
+        - {x: 49, y: 39}
+        - {x: 33, y: 51}
+    - name: asteroid_02_no_moblur_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 53}
+        - {x: -53, y: 9}
+        - {x: -53, y: -45}
+        - {x: -38, y: -49}
+        - {x: 37, y: -49}
+        - {x: 50, y: -40}
+        - {x: 50, y: 42}
+        - {x: 11, y: 53}
+    - name: asteroid_02_no_moblur_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 11}
+        - {x: 44, y: 34}
+        - {x: 20, y: 53}
+        - {x: -21, y: 53}
+        - {x: -46, y: 38}
+        - {x: -52, y: 28}
+        - {x: -52, y: -38}
+        - {x: -45, y: -50}
+        - {x: 19, y: -50}
+        - {x: 47, y: -30}
+        - {x: 50, y: -11}
+        - {x: 50, y: -2}
+    - name: asteroid_02_no_moblur_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 52}
+        - {x: -29, y: 52}
+        - {x: -50, y: 18}
+        - {x: -50, y: -34}
+        - {x: -40, y: -49}
+        - {x: 27, y: -49}
+        - {x: 39, y: -47}
+        - {x: 50, y: -22}
+        - {x: 50, y: 16}
+        - {x: 42, y: 46}
+    - name: asteroid_02_no_moblur_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 50}
+        - {x: -45, y: 41}
+        - {x: -48, y: 3}
+        - {x: -48, y: -39}
+        - {x: -37, y: -49}
+        - {x: 29, y: -49}
+        - {x: 49, y: -41}
+        - {x: 49, y: 43}
+        - {x: 27, y: 50}
+    - name: asteroid_02_no_moblur_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 46}
+        - {x: -46, y: -48}
+        - {x: 13, y: -48}
+        - {x: 30, y: -46}
+        - {x: 48, y: -28}
+        - {x: 48, y: 26}
+        - {x: 41, y: 46}
+    - name: asteroid_02_no_moblur_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 45}
+        - {x: -35, y: 45}
+        - {x: -44, y: 22}
+        - {x: -44, y: -45}
+        - {x: -43, y: -47}
+        - {x: 39, y: -47}
+        - {x: 46, y: -30}
+        - {x: 48, y: -17}
+        - {x: 48, y: 32}
+    - name: asteroid_02_no_moblur_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 47}
+        - {x: -31, y: 44}
+        - {x: -46, y: 20}
+        - {x: -46, y: -15}
+        - {x: -44, y: -22}
+        - {x: -18, y: -48}
+        - {x: 11, y: -48}
+        - {x: 50, y: -33}
+        - {x: 50, y: 33}
+        - {x: 38, y: 47}
+    - name: asteroid_02_no_moblur_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 48}
+        - {x: -48, y: 36}
+        - {x: -48, y: -21}
+        - {x: -26, y: -48}
+        - {x: 39, y: -48}
+        - {x: 51, y: -14}
+        - {x: 51, y: 43}
+        - {x: 47, y: 48}
+    - name: asteroid_02_no_moblur_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 48}
+        - {x: -50, y: 18}
+        - {x: -50, y: -31}
+        - {x: -28, y: -47}
+        - {x: 19, y: -47}
+        - {x: 51, y: -33}
+        - {x: 51, y: 29}
+        - {x: 33, y: 48}
+    - name: asteroid_02_no_moblur_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 48}
+        - {x: -51, y: 33}
+        - {x: -51, y: -28}
+        - {x: -29, y: -45}
+        - {x: 40, y: -45}
+        - {x: 49, y: -39}
+        - {x: 49, y: 41}
+        - {x: 37, y: 48}
+    - name: asteroid_02_no_moblur_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 47}
+        - {x: -51, y: 20}
+        - {x: -51, y: -31}
+        - {x: -20, y: -44}
+        - {x: 40, y: -44}
+        - {x: 47, y: -27}
+        - {x: 47, y: 40}
+        - {x: 29, y: 47}
+    - name: asteroid_02_no_moblur_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 44}
+        - {x: -32, y: 41}
+        - {x: -50, y: 35}
+        - {x: -50, y: -28}
+        - {x: -43, y: -44}
+        - {x: 23, y: -44}
+        - {x: 44, y: -33}
+        - {x: 44, y: 18}
+        - {x: 20, y: 44}
+    - name: asteroid_02_no_moblur_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 42}
+        - {x: -41, y: 42}
+        - {x: -51, y: 16}
+        - {x: -51, y: -15}
+        - {x: -27, y: -46}
+        - {x: 42, y: -46}
+        - {x: 44, y: -35}
+        - {x: 44, y: 23}
+        - {x: 27, y: 41}
+    - name: asteroid_02_no_moblur_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 48}
+        - {x: -47, y: 26}
+        - {x: -47, y: -20}
+        - {x: -25, y: -48}
+        - {x: 39, y: -48}
+        - {x: 41, y: -39}
+        - {x: 41, y: 41}
+        - {x: 19, y: 48}
+    - name: asteroid_02_no_moblur_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 48}
+        - {x: -47, y: 32}
+        - {x: -47, y: -6}
+        - {x: -37, y: -46}
+        - {x: -22, y: -49}
+        - {x: 19, y: -49}
+        - {x: 42, y: -27}
+        - {x: 42, y: 34}
+        - {x: 15, y: 48}
+    - name: asteroid_02_no_moblur_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 51}
+        - {x: -10, y: 51}
+        - {x: -16, y: 50}
+        - {x: -47, y: 21}
+        - {x: -47, y: 14}
+        - {x: -44, y: -8}
+        - {x: -33, y: -38}
+        - {x: -22, y: -46}
+        - {x: 1, y: -49}
+        - {x: 14, y: -49}
+        - {x: 44, y: -30}
+        - {x: 44, y: -13}
+        - {x: 40, y: 24}
+    - name: asteroid_02_no_moblur_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: -4}
+        - {x: -33, y: -48}
+        - {x: -24, y: -51}
+        - {x: 7, y: -51}
+        - {x: 45, y: -38}
+        - {x: 45, y: 10}
+        - {x: 43, y: 26}
+        - {x: 10, y: 54}
+        - {x: -4, y: 54}
+        - {x: -46, y: 25}
+    - name: asteroid_02_no_moblur_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 56}
+        - {x: -16, y: 56}
+        - {x: -46, y: 22}
+        - {x: -46, y: -15}
+        - {x: -28, y: -49}
+        - {x: -7, y: -53}
+        - {x: 8, y: -53}
+        - {x: 46, y: -42}
+        - {x: 46, y: 20}
+        - {x: 44, y: 36}
+    - name: asteroid_02_no_moblur_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 58}
+        - {x: -46, y: 27}
+        - {x: -46, y: -13}
+        - {x: -34, y: -49}
+        - {x: -20, y: -55}
+        - {x: 12, y: -55}
+        - {x: 47, y: -43}
+        - {x: 47, y: 15}
+        - {x: 15, y: 58}
+    - name: asteroid_02_no_moblur_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 60}
+        - {x: -3, y: 60}
+        - {x: -17, y: 53}
+        - {x: -45, y: 22}
+        - {x: -45, y: -9}
+        - {x: -33, y: -47}
+        - {x: -23, y: -54}
+        - {x: 17, y: -54}
+        - {x: 49, y: -37}
+        - {x: 49, y: -1}
+        - {x: 38, y: 23}
+    - name: asteroid_02_no_moblur_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 60}
+        - {x: -25, y: 58}
+        - {x: -44, y: 20}
+        - {x: -44, y: -28}
+        - {x: -23, y: -52}
+        - {x: 28, y: -52}
+        - {x: 50, y: -31}
+        - {x: 50, y: 18}
+        - {x: 18, y: 60}
+    - name: asteroid_02_no_moblur_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 59}
+        - {x: -40, y: 51}
+        - {x: -43, y: 35}
+        - {x: -43, y: -40}
+        - {x: -36, y: -50}
+        - {x: 43, y: -50}
+        - {x: 51, y: -36}
+        - {x: 51, y: 13}
+        - {x: 14, y: 59}
+    - name: asteroid_02_no_moblur_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 57}
+        - {x: -43, y: 36}
+        - {x: -43, y: -27}
+        - {x: -18, y: -50}
+        - {x: 1, y: -50}
+        - {x: 42, y: -34}
+        - {x: 50, y: -25}
+        - {x: 50, y: 8}
+        - {x: 25, y: 57}
+    - name: asteroid_02_no_moblur_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 56}
+        - {x: -14, y: 56}
+        - {x: -43, y: 33}
+        - {x: -43, y: -13}
+        - {x: -29, y: -39}
+        - {x: -18, y: -52}
+        - {x: 15, y: -52}
+        - {x: 49, y: -24}
+        - {x: 49, y: 11}
+        - {x: 41, y: 25}
+    - name: asteroid_02_no_moblur_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 53}
+        - {x: -39, y: 53}
+        - {x: -43, y: 44}
+        - {x: -43, y: -13}
+        - {x: -38, y: -38}
+        - {x: -6, y: -53}
+        - {x: -3, y: -53}
+        - {x: 6, y: -52}
+        - {x: 36, y: -28}
+        - {x: 47, y: -15}
+        - {x: 47, y: 44}
+    - name: asteroid_02_no_moblur_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 49}
+        - {x: -43, y: 41}
+        - {x: -43, y: -23}
+        - {x: -33, y: -53}
+        - {x: 16, y: -53}
+        - {x: 45, y: -19}
+        - {x: 45, y: 34}
+        - {x: 11, y: 49}
+    - name: asteroid_02_no_moblur_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 49}
+        - {x: -43, y: 43}
+        - {x: -43, y: -33}
+        - {x: -11, y: -53}
+        - {x: 21, y: -53}
+        - {x: 43, y: -26}
+        - {x: 43, y: 28}
+        - {x: 6, y: 49}
+    - name: asteroid_02_no_moblur_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 48}
+        - {x: -41, y: 48}
+        - {x: -44, y: 32}
+        - {x: -44, y: -42}
+        - {x: -19, y: -52}
+        - {x: 21, y: -52}
+        - {x: 41, y: -35}
+        - {x: 43, y: -23}
+        - {x: 43, y: 19}
+    - name: asteroid_02_no_moblur_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 47}
+        - {x: -44, y: 27}
+        - {x: -44, y: -13}
+        - {x: -40, y: -29}
+        - {x: -13, y: -50}
+        - {x: 12, y: -50}
+        - {x: 44, y: -39}
+        - {x: 46, y: -31}
+        - {x: 46, y: 16}
+        - {x: 19, y: 47}
+    - name: asteroid_02_no_moblur_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 46}
+        - {x: -32, y: 46}
+        - {x: -44, y: 22}
+        - {x: -44, y: -21}
+        - {x: -11, y: -51}
+        - {x: 6, y: -51}
+        - {x: 19, y: -44}
+        - {x: 48, y: -29}
+        - {x: 49, y: -24}
+        - {x: 49, y: 10}
+    - name: asteroid_02_no_moblur_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 44}
+        - {x: -25, y: 44}
+        - {x: -30, y: 43}
+        - {x: -45, y: 24}
+        - {x: -45, y: -50}
+        - {x: 49, y: -50}
+        - {x: 51, y: -41}
+        - {x: 51, y: -4}
+        - {x: 42, y: 26}
+    - name: asteroid_02_no_moblur_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: -14}
+        - {x: -23, y: -49}
+        - {x: 12, y: -49}
+        - {x: 53, y: -30}
+        - {x: 53, y: 2}
+        - {x: 45, y: 25}
+        - {x: 27, y: 47}
+        - {x: -28, y: 47}
+        - {x: -47, y: 33}
+    - name: asteroid_02_no_moblur_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 51}
+        - {x: -48, y: 26}
+        - {x: -48, y: -22}
+        - {x: -21, y: -48}
+        - {x: 25, y: -48}
+        - {x: 55, y: -30}
+        - {x: 55, y: 4}
+        - {x: 17, y: 51}
+    - name: asteroid_02_no_moblur_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -13}
+        - {x: -18, y: -46}
+        - {x: 16, y: -46}
+        - {x: 56, y: -34}
+        - {x: 56, y: 3}
+        - {x: 21, y: 54}
+        - {x: -22, y: 54}
+        - {x: -50, y: 26}
+    - name: asteroid_02_no_moblur_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 55}
+        - {x: -51, y: 55}
+        - {x: -51, y: -6}
+        - {x: -30, y: -45}
+        - {x: 9, y: -45}
+        - {x: 37, y: -37}
+        - {x: 56, y: -25}
+        - {x: 56, y: -13}
+    - name: asteroid_02_no_moblur_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 55}
+        - {x: -23, y: 55}
+        - {x: -48, y: 40}
+        - {x: -52, y: 22}
+        - {x: -52, y: -15}
+        - {x: -26, y: -43}
+        - {x: 35, y: -43}
+        - {x: 54, y: -27}
+        - {x: 54, y: -8}
+        - {x: 46, y: 27}
+    - name: asteroid_02_no_moblur_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: -18}
+        - {x: -21, y: -45}
+        - {x: 30, y: -45}
+        - {x: 52, y: -37}
+        - {x: 52, y: 1}
+        - {x: 29, y: 55}
+        - {x: -39, y: 55}
+        - {x: -52, y: 26}
+    - name: asteroid_02_no_moblur_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: -15}
+        - {x: -10, y: -48}
+        - {x: 16, y: -48}
+        - {x: 51, y: -35}
+        - {x: 51, y: 0}
+        - {x: 25, y: 54}
+        - {x: -18, y: 54}
+        - {x: -52, y: 26}
+    - name: asteroid_02_no_moblur_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -14}
+        - {x: -10, y: -48}
+        - {x: 16, y: -48}
+        - {x: 49, y: -36}
+        - {x: 49, y: 6}
+        - {x: 26, y: 53}
+        - {x: -19, y: 53}
+        - {x: -50, y: 22}
+    - name: asteroid_02_no_moblur_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 51}
+        - {x: -48, y: 20}
+        - {x: -48, y: -12}
+        - {x: -31, y: -48}
+        - {x: 47, y: -48}
+        - {x: 47, y: 35}
+        - {x: 14, y: 51}
+    - name: asteroid_02_no_moblur_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 49}
+        - {x: -49, y: 27}
+        - {x: -49, y: -13}
+        - {x: -47, y: -21}
+        - {x: -14, y: -46}
+        - {x: 16, y: -46}
+        - {x: 40, y: -39}
+        - {x: 46, y: -29}
+        - {x: 46, y: 7}
+        - {x: 28, y: 49}
+    - name: asteroid_02_no_moblur_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 47}
+        - {x: -50, y: 28}
+        - {x: -50, y: -37}
+        - {x: -27, y: -44}
+        - {x: 45, y: -44}
+        - {x: 45, y: 10}
+        - {x: 29, y: 47}
+    - name: asteroid_02_no_moblur_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 46}
+        - {x: -50, y: 35}
+        - {x: -50, y: 0}
+        - {x: -49, y: -27}
+        - {x: -17, y: -44}
+        - {x: 26, y: -44}
+        - {x: 44, y: -36}
+        - {x: 44, y: 37}
+        - {x: 23, y: 46}
+    - name: asteroid_02_no_moblur_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: -49}
+        - {x: -25, y: -57}
+        - {x: -20, y: -62}
+        - {x: 64, y: -62}
+        - {x: 64, y: -51}
+        - {x: 54, y: -49}
+      - - {x: 46, y: 28}
+        - {x: 11, y: 48}
+        - {x: -30, y: 48}
+        - {x: -48, y: 29}
+        - {x: -48, y: -12}
+        - {x: -41, y: -29}
+        - {x: -21, y: -45}
+        - {x: -3, y: -48}
+        - {x: 16, y: -48}
+        - {x: 43, y: -43}
+        - {x: 47, y: -38}
+        - {x: 47, y: 18}
+    - name: asteroid_02_no_moblur_63
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -36}
+        - {x: -64, y: -62}
+        - {x: -29, y: -62}
+        - {x: -26, y: -59}
+        - {x: -26, y: -54}
+        - {x: -48, y: -36}
+      - - {x: 17, y: -56}
+        - {x: 8, y: -56}
+        - {x: 6, y: -59}
+        - {x: 7, y: -62}
+        - {x: 18, y: -62}
+        - {x: 20, y: -60}
+        - {x: 20, y: -57}
+      - - {x: 4, y: 48}
+        - {x: -30, y: 48}
+        - {x: -47, y: 36}
+        - {x: -47, y: -50}
+        - {x: 23, y: -50}
+        - {x: 41, y: -45}
+        - {x: 41, y: 33}
+      - - {x: 37, y: -37}
+        - {x: 37, y: -43}
+        - {x: 38, y: -46}
+        - {x: 43, y: -46}
+        - {x: 49, y: -42}
+        - {x: 49, y: -37}
+        - {x: 48, y: -35}
+        - {x: 39, y: -35}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
