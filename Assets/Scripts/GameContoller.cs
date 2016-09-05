@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameContoller : MonoBehaviour
 {
+
+    [Range(0, 100)]
+    public int rockChance;
 
     public GameObject[] roidFieldRocks;
     public GameObject[] enemies;
@@ -11,7 +15,7 @@ public class GameContoller : MonoBehaviour
     public Text scoreText;
     public Text restartText;
     public Text gameOverText;
-    public bool bossScene;
+    //public bool bossScene;
 
     public int hazardCount;
     public float spawnWait;
@@ -50,7 +54,7 @@ public class GameContoller : MonoBehaviour
      
         StartCoroutine(CheckForDead());
         UpdateScore();
-        levelNumber = Application.loadedLevel;
+        levelNumber = SceneManager.GetActiveScene().buildIndex;
     }
 
     void Update()
@@ -72,7 +76,7 @@ public class GameContoller : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
-                Application.LoadLevel(Application.loadedLevel);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
     }
@@ -218,4 +222,15 @@ public class Score
     {
         score = 0;
     }
+}
+public class DestructableModel
+{
+    GameObject destructablePrefab;
+    GameObject explosionPrefab;
+    [Range(0,100)] 
+    public int spawnRate;
+    public int hits;
+    public int size;
+
+
 }

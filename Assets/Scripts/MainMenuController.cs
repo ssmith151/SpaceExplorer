@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class MainMenuController : MonoBehaviour {
@@ -43,12 +44,12 @@ public class MainMenuController : MonoBehaviour {
     }
     public void OnStartGame()
     {
-        Application.LoadLevel(1);
+        SceneManager.LoadScene(1);
     }
     public void LoadLevel(int levelToLoad)
     {
         Time.timeScale = 1;
-         Application.LoadLevel(levelToLoad);
+        SceneManager.LoadScene(levelToLoad);
     }
     public void OnExitGame()
     {
