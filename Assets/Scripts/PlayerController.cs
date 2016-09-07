@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
     public GameObject shotSpawn;
     public GameObject shot;
     public GameObject[] altShots;
+    public int playerCurrentAltShot;
     public GameObject playerExp;
     public Image speedBar;
     public Image health;
@@ -28,70 +29,118 @@ public class PlayerController : MonoBehaviour {
     private float mouseY;
     private bool mouseFire;
     private bool mouseAltFire;
+    private float mouseWheel;
     private AudioSource audS;
     private bool inCollider;
-
+    // samples for testing, no concept designed
+    private string[] altFireNames  = new string[] {"Sticky Bombs", "Blaster Cannon", "Photon torpedos"};
 
     // Use this for initialization
     void Awake () {
         audS = shotSpawn.GetComponent<AudioSource>();
         rb = gameObject.GetComponent<Rigidbody>();
         inCollider = false;
-
+        if (playerCurrentAltShot == -1 && altShots.Length > 0)
+        {
+            playerCurrentAltShot = 0;
+        }
     }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+
+        PlayerInputs();
+
+        ForwardSpeedCalc();
+
+        SidewaysSpeedCalc();
+
+        Fire();
+
+        AltFire();
+
+        if (mouseWheel != 0 && altShots.Length>1)
+        {
+            AltFireSelect();
+        }
+
+        rb.transform.Rotate(-mouseY, mouseX, 0);
+
+        Vector3 movement = new Vector3(currentSideWaysSpeed * Time.deltaTime, 0.0f, currentForwardSpeed * Time.deltaTime);
+        rb.transform.Translate(movement);
+    }
+    void PlayerInputs()
+    {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
         mouseX = Input.GetAxis("Mouse X");
         mouseY = Input.GetAxis("Mouse Y");
         mouseFire = Input.GetButtonDown("Fire1");
         mouseAltFire = Input.GetButtonDown("Fire2");
+        mouseWheel = Input.GetAxis("Mouse ScrollWheel");
 
         horizontal = Mathf.Clamp(horizontal, -1, 1);
-        vertical =  Mathf.Clamp(vertical, -1, 1);
+        vertical = Mathf.Clamp(vertical, -1, 1);
         mouseX = rotationSmoother * Mathf.Clamp(mouseX, -1, 1);
         mouseY = rotationSmoother * Mathf.Clamp(mouseY, -1, 1);
-
+    }
+    void ForwardSpeedCalc()
+    {
         float newForwardSpeed = 0.0f;
         newForwardSpeed += vertical;
         newForwardSpeed = currentForwardSpeed + newForwardSpeed;
         currentForwardSpeed = Mathf.Clamp(newForwardSpeed, minForwardSpeed, maxForwardSpeed);
         float speedBarFill = currentForwardSpeed / maxForwardSpeed;
         speedBar.fillAmount = speedBarFill;
-
+    }
+    void SidewaysSpeedCalc()
+    {
         float newHorizontalSpeed = 0.0f;
         newHorizontalSpeed += horizontal;
         newHorizontalSpeed = currentSideWaysSpeed + newHorizontalSpeed - Mathf.Sign(currentSideWaysSpeed) * sidewaysSpeedReducer;
         currentSideWaysSpeed = Mathf.Clamp(newHorizontalSpeed, -5.0f, 5.0f);
-
-
+    }
+    void Fire()
+    {
         if (mouseFire && !mouseAltFire)
         {
             audS.Play();
             Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
         }
+    }
+    void AltFire()
+    {
         if (mouseAltFire && !mouseFire)
         {
-            audS.Play();
-            if ( altShots[0]!= null)
+            if (playerCurrentAltShot != -1)
             {
-                Instantiate(altShots[0], shotSpawn.transform.position, shotSpawn.transform.rotation);
+                audS.Play();
+                Instantiate(altShots[playerCurrentAltShot], shotSpawn.transform.position, shotSpawn.transform.rotation);
             }
-
         }
-
-        //Quaternion newFacing = Quaternion.Euler(0.0f, 0.0f, 0.0f);
-        //newFacing = Quaternion.Euler(rb.transform.rotation.x - mouseY,
-        //   rb.transform.rotation.y + mouseX, rb.transform.rotation.z);
-        //rb.MoveRotation(newFacing * rb.rotation);
-        rb.transform.Rotate(-mouseY, mouseX, 0);
-
-        Vector3 movement = new Vector3(newHorizontalSpeed * Time.deltaTime, 0.0f, currentForwardSpeed * Time.deltaTime);
-        rb.transform.Translate(movement);
     }
-
+    void AltFireSelect()
+    {
+        if (mouseWheel > 0)
+        {
+            if (playerCurrentAltShot + 1 < altShots.Length)
+                playerCurrentAltShot += 1;
+            else
+                playerCurrentAltShot = 0;
+        }
+        else
+        {
+            if (playerCurrentAltShot > 0)
+                playerCurrentAltShot -= 1;
+            else
+                playerCurrentAltShot = altShots.Length - 1;
+        }
+        MessageToAltShotDisplay();
+    }
+    void MessageToAltShotDisplay()
+    {
+        gc.UpdateAltShotText(altFireNames[playerCurrentAltShot]);
+    }
     void OnTriggerEnter (Collider other)
     {
         if (gc.isSpawningLevel)
@@ -102,7 +151,7 @@ public class PlayerController : MonoBehaviour {
             return;
         if (inCollider == false)
         {
-            Debug.Log("there is a collision");
+            //Debug.Log("there is a collision");
             StartCoroutine(DamagePlayer(other));
         }
     }

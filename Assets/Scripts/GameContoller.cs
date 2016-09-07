@@ -17,6 +17,7 @@ public class GameContoller : MonoBehaviour
     public Text scoreText;
     public Text restartText;
     public Text gameOverText;
+    public Text altShotText;
     //public bool bossScene;
 
     public int hazardCount;
@@ -245,6 +246,11 @@ public class GameContoller : MonoBehaviour
     void UpdateScore()
     {
         scoreText.text = "Score : " + score.score;
+    }
+
+    public void UpdateAltShotText(string nameIn)
+    {
+        altShotText.text = "2nd Fire : " + nameIn;
     }
 
     public void GameOver()
