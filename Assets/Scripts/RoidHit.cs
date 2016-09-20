@@ -29,10 +29,10 @@ public class RoidHit : MonoBehaviour
     }
     IEnumerator normalizeDrag()
     {
-        for(int i = 0; i<50; i++)
+        for (int i = 0; i < 50; i++)
         {
             yield return new WaitForSeconds(0.1f);
-            rb.drag -= rb.drag/2f;
+            rb.drag -= rb.drag / 2f;
         }
         rb.drag = 0;
         yield return null;
@@ -60,8 +60,8 @@ public class RoidHit : MonoBehaviour
     }
     IEnumerator fillVolumeOfRoid()
     {
-// this coroutine is an attempt to fill the volume of the space contained by the asteroid
-// there is a helper class 'SphereVolume' to calculate the volume from radius and visa versa
+        // this coroutine is an attempt to fill the volume of the space contained by the asteroid
+        // there is a helper class 'SphereVolume' to calculate the volume from radius and visa versa
         int sizeOfA = Mathf.RoundToInt(gameObject.transform.localScale.x);
         if (sizeOfA > 3)
         {
@@ -112,19 +112,19 @@ public class RoidHit : MonoBehaviour
         }
     }
 }
-public static class SphereVolume
-{
-    static int[] preCalcVolumes = {0,2,19,64,151,295,509,808,1206,1718,2356,3136,4072,5177,6465,7952,9651,11576,13741,16161,18850,21821,
-        25089,28668,32572,36816,41412,46377,51723,57465,63617,70193,77208,84675,92608,101022,109931,119348,129289,
-        139767,150796,162391,174566,187334,200710,214708,229342,244627,260576,277204};
+//public static class SphereVolume
+//{
+//    static int[] preCalcVolumes = {0,2,19,64,151,295,509,808,1206,1718,2356,3136,4072,5177,6465,7952,9651,11576,13741,16161,18850,21821,
+//        25089,28668,32572,36816,41412,46377,51723,57465,63617,70193,77208,84675,92608,101022,109931,119348,129289,
+//        139767,150796,162391,174566,187334,200710,214708,229342,244627,260576,277204};
 
-    public static int fromRadius (int indexIn)
-    {
-        int newVolume = preCalcVolumes[indexIn];
-        return newVolume;
-    }
-    public static int radiusFromVolume(int volumeIn)
-    {
-        return Mathf.RoundToInt(Mathf.Pow((volumeIn/2.3562f), 0.333f));
-    }
-}
+//    public static int fromRadius(int indexIn)
+//    {
+//        int newVolume = preCalcVolumes[indexIn];
+//        return newVolume;
+//    }
+//    public static int radiusFromVolume(int volumeIn)
+//    {
+//        return Mathf.RoundToInt(Mathf.Pow((volumeIn / 2.3562f), 0.333f));
+//    }
+//}

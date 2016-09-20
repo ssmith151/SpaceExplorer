@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c4cb4de38a480824a9e9383523a3a084
-timeCreated: 1452741490
+timeCreated: 1473547778
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -13,6 +13,7 @@ TextureImporter:
     21300012: BarHorz
     21300014: Corner2
     21300016: HealthBar
+    21300018: ss2012-10-15at050906_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,7 +27,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -51,7 +52,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 300
   alphaIsTransparency: 1
@@ -67,8 +68,13 @@ TextureImporter:
         width: 39
         height: 38
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 19}
+        - {x: -19.5, y: -19}
+        - {x: 19.5, y: -19}
+        - {x: 19.5, y: 19}
     - name: SpeedGaugeFiller
       rect:
         serializedVersion: 2
@@ -77,8 +83,9 @@ TextureImporter:
         width: 123
         height: 26
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: Button1
       rect:
         serializedVersion: 2
@@ -87,8 +94,13 @@ TextureImporter:
         width: 94
         height: 95
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 32, y: 33, z: 31, w: 32}
+      outline:
+      - - {x: -47, y: 47.5}
+        - {x: -47, y: -47.5}
+        - {x: 47, y: -47.5}
+        - {x: 47, y: 47.5}
     - name: ss2012-10-15at050906_0
       rect:
         serializedVersion: 2
@@ -97,8 +109,13 @@ TextureImporter:
         width: 93
         height: 93
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 32, y: 32, z: 33, w: 31}
+      outline:
+      - - {x: -46.5, y: 46.5}
+        - {x: -46.5, y: -46.5}
+        - {x: 46.5, y: -46.5}
+        - {x: 46.5, y: 46.5}
     - name: Corner1
       rect:
         serializedVersion: 2
@@ -107,8 +124,9 @@ TextureImporter:
         width: 34
         height: 26
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: BarVert
       rect:
         serializedVersion: 2
@@ -117,8 +135,9 @@ TextureImporter:
         width: 10
         height: 43
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 2, y: 8, z: 2, w: 9}
+      outline: []
     - name: BarHorz
       rect:
         serializedVersion: 2
@@ -127,8 +146,9 @@ TextureImporter:
         width: 44
         height: 9
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 7, y: 2, z: 7, w: 2}
+      outline: []
     - name: Corner2
       rect:
         serializedVersion: 2
@@ -137,8 +157,9 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: HealthBar
       rect:
         serializedVersion: 2
@@ -147,8 +168,21 @@ TextureImporter:
         width: 123
         height: 14
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ss2012-10-15at050906_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 468
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
